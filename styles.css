@@ -2,7 +2,6 @@
   display: flex;
   flex-wrap: nowrap;
   align-items: stretch;
-  flex-direction: row;
 }
 .flex-container > div {
   background-color: #f1f1f1;
@@ -17,10 +16,11 @@ img {
   display: block;
 }
 .categories {
-  flex-direction: column;
   border: none;
   color: grey;
+  text-align: left;
   background-color: unset;
+  flex-direction: column;
 }
 .categories div:nth-child(1) {
   background-color: rgb(236, 226, 128);
