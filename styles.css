@@ -13,9 +13,10 @@
   text-align: center;
 }
 img {
-  display: block;
+  border: none;
 }
 .categories {
+  display: flex;
   border: none;
   color: grey;
   text-align: left;
